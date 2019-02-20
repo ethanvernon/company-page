@@ -5,13 +5,21 @@ import { Button, Container, Row, Col } from 'reactstrap';
 import './App.css';
 import product from './product.jpg';
 import icon from './icon.png';
+import book from './book.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faCodepen } from '@fortawesome/free-brands-svg-icons';
+import {faAngleDoubleUp} from '@fortawesome/free-solid-svg-icons';
+
 
 export class Home extends Component {
 	render() {
 		return (
 		<div className='page'>	
 
-			<div className='main'>
+			<div className='main' id='main'>
 				<div className='statement'>
 					<h1>Captivating choice of words uniquely organized to convince your customers of your awesomeness.</h1>
 					<div className='btn-holder'>
@@ -128,6 +136,69 @@ export class Home extends Component {
 				<div className='btn-holder'>
 					<Button color='primary'>LEARN MORE</Button>
 				</div>
+			</div>
+
+			<div className='defining-value'>
+				<h2>IMPORTANT VALUE</h2>
+				<p>Fusce ut leo purus. Morbi consequat dui at ligula blandit, quis aliquet magna consectetur. Quisque mollis id tortor a iaculis.</p>
+			</div>
+
+			<div className='product-giveaway'>
+				<Container><Row>
+					<Col sm='7'>
+						<h2>FREE PRODUCT</h2>
+						<p>Fusce ut leo purus. Morbi consequat dui at ligula blandit, quis aliquet magna consectetur. Quisque mollis id tortor a iaculis.</p>
+						<div className='btn-holder'>
+							<Button color='primary'>DOWNLOAD</Button>
+						</div>
+					</Col>
+					<Col sm='5' className='product-col'>
+						<img src={book}/>
+					</Col>
+				</Row></Container>
+			</div>
+
+			<div className='ending'>
+				<Container><Row>
+					<Col lg='4'>
+						<div className='quantifiable'>
+							<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-7'/>
+							<h2>39%</h2>
+							<h3>Increase in sales</h3>
+						</div>
+					</Col>
+					<Col lg='4'>
+						<div className='quantifiable'>
+							<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-7'/>
+							<h2>99%</h2>
+							<h3>Customer Satisfaction</h3>
+						</div>
+					</Col>
+					<Col lg='4'>
+						<div className='quantifiable'>
+							<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-7'/>
+							<h2>385000</h2>
+							<h3>Bookings</h3>
+						</div>
+					</Col>
+				</Row></Container>
+			</div>
+
+			<div className='footer'>
+				<div className='social-media'>
+					<a href="https://github.com/ethanvernon" target="_blank" rel="noopener noreferrer">
+						<FontAwesomeIcon icon={ faGithub } size='1x' transform="grow-10" color='gray' className='social-icons'/>
+					</a>
+					<a href="https://www.linkedin.com/in/ethanvernon/" target="_blank" rel="noopener noreferrer">
+						<FontAwesomeIcon icon={ faLinkedinIn } size='1x' transform="grow-10" color='gray' className='social-icons'/>	
+					</a>
+				</div>
+				<p>Handcrafted by me © Ethan Vernon</p>
+				<div className='up-container'>
+					<a href="#top">
+						<FontAwesomeIcon icon={ faAngleDoubleUp } size='2x' transform="grow-1"  className='back-top'/>
+					</a>
+				</div>				
 			</div>
 
 		</div>
