@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 import {Home} from './Home';
 import Solutions from './Solutions';
-import About from './About';
+import {About} from './About';
 import Careers from './Careers';
 import Blog from './Blog';
 import RequestDemo from './RequestDemo';
