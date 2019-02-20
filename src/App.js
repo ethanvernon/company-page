@@ -12,7 +12,7 @@ import About from './About';
 import Careers from './Careers';
 import Blog from './Blog';
 import RequestDemo from './RequestDemo';
-import Header from './Header';
+import {Header} from './Header';
 import NotFound from './NotFound';
 
 class App extends Component {
