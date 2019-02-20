@@ -30,9 +30,10 @@ export class Header extends Component {
 	render() {
 	return (
 		<Navbar color='light' light expand='md'>
-			<NavbarToggler onClick={this.toggle} />
+			<NavbarBrand href="/" className="mr-auto">Your logo</NavbarBrand>
+			<NavbarToggler onClick={this.toggle} className='mr-2'/>
 			<Collapse isOpen={this.state.isOpen} navbar>
-				<Nav className='ml-auto' navbar>
+				<Nav navbar className='ml-auto'>
 					<NavItem>
 						<Link to="/"> Home </Link>
 					</NavItem>

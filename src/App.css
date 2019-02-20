@@ -2,32 +2,120 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------Header---------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+nav {
+  position:fixed !important;
+  top:0px;
+  width:100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-item {
+  padding-left:10px;
+  padding-right:10px;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  background-color:#222222;
+  padding:10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+li a {
+  color:white !important;
+  line-height:30px;
+  padding-left:20px;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+
+li a:hover {
+  color:lightblue !important;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------Home-----------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.main {
+  margin-top:56px;
+  background-image: url(./main.jpg);
+  height:400px;
+  overflow:hidden; 
+  width:100%;
+  background-position: center !important;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.statement h1 {
+  display:block;
+  text-align:center;
+  font-size:calc(20px + 2vw);
+  margin:auto;
+  font-weight:400;
+  padding-top:40px;
+  letter-spacing:2px;
+  width:90%;
+}
+
+.btn-holder {
+  margin-top:40px;
+  margin-left:auto;
+  margin-right:auto;
+  width:200px;
+}
+
+.description {
+  height:200px;
+  text-align:center;
+}
+
+.description h2 {
+  margin-top:40px;
+  font-weight:100;
+  letter-spacing: 4px;
+}
+
+.description p {
+  margin:20px auto;
+  max-width:700px;
+}
+
+.capstone-feature {
+  background-color:#eee;
+  height:800px;
+  text-align:center;
+}
+
+.capstone-feature h2 {
+  padding-top:40px;
+  font-weight:100;
+  letter-spacing: 4px;
+}
+
+.capstone-feature p{
+  max-width:700px;
+  margin:20px auto;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------media queries >767px-------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 767px) {
+  ul {
+    background-color:#f8f9fa;
+    padding:0px;
   }
-  to {
-    transform: rotate(360deg);
+
+  li a{
+    color:black !important;
   }
 }
