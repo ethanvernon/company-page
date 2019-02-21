@@ -12,6 +12,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faCodepen } from '@fortawesome/free-brands-svg-icons';
 import {faAngleDoubleUp} from '@fortawesome/free-solid-svg-icons';
+import {Footer} from './Footer';
 
 
 export class Home extends Component {
@@ -184,22 +185,7 @@ export class Home extends Component {
 				</Row></Container>
 			</div>
 
-			<div className='footer'>
-				<div className='social-media'>
-					<a href="https://github.com/ethanvernon" target="_blank" rel="noopener noreferrer">
-						<FontAwesomeIcon icon={ faGithub } size='1x' transform="grow-10" color='gray' className='social-icons'/>
-					</a>
-					<a href="https://www.linkedin.com/in/ethanvernon/" target="_blank" rel="noopener noreferrer">
-						<FontAwesomeIcon icon={ faLinkedinIn } size='1x' transform="grow-10" color='gray' className='social-icons'/>	
-					</a>
-				</div>
-				<p>Handcrafted by me © Ethan Vernon</p>
-				<div className='up-container'>
-					<a href="#top">
-						<FontAwesomeIcon icon={ faAngleDoubleUp } size='2x' transform="grow-1"  className='back-top'/>
-					</a>
-				</div>				
-			</div>
+			<Footer/>
 
 		</div>
 	    );
