@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import office from './work.jpg';
-import { Button, Container, Row, Col } from 'reactstrap';
+import { Button, Col } from 'reactstrap';
 import './App.css';
-import product from './product.jpg';
-import icon from './icon.png';
-import book from './book.jpg';
 import headshot from './profile.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faCodepen } from '@fortawesome/free-brands-svg-icons';
 import {faAngleDoubleUp} from '@fortawesome/free-solid-svg-icons';
 import {Footer} from './Footer';
+import { Link } from 'react-router-dom';
 
 
 export class About extends Component {
@@ -137,7 +134,7 @@ export class About extends Component {
 
 			<div className='hire-plug'>
 				<p>We're looking for smart and passionate people to join our team.</p>
-				<Button color='primary'>OPEN POSITIONS</Button>
+				<Link to="/careers"><Button color='primary'>OPEN POSITIONS</Button></Link>
 			</div>
 
 			<Footer/>
