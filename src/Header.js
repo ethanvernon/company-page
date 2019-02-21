@@ -43,10 +43,10 @@ export class Header extends Component {
 						<Link to="/"> Home </Link>
 					</NavItem>
 
-					<NavItem>
+					<NavItem className='custom-nav-padding'>
 					<UncontrolledDropdown  inNavbar>
 						<DropdownToggle nav className='no-padding-nav'>
-							<Link to="/solutions"> Solutions </Link>
+							Solutions
 						</DropdownToggle>
 						<DropdownMenu right>
 							<DropdownItem>
