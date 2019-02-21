@@ -47,9 +47,9 @@ export class Careers extends Component {
 				<p>Perk Name<br/>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</Col>
-				<Col md='6'>
+				<Col md='6' className='perk-card'>
 				<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-1'/>
-				<p>Perk Namee<br/>
+				<p>Perk Name<br/>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</Col>
 				</Row>
@@ -60,9 +60,9 @@ export class Careers extends Component {
 				<p>Perk Name<br/>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</Col>
-				<Col md='6'>
+				<Col md='6' className='perk-card'>
 				<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-1'/>
-				<p>Perk Namee<br/>
+				<p>Perk Name<br/>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</Col>
 				</Row>
@@ -73,9 +73,9 @@ export class Careers extends Component {
 				<p>Perk Name<br/>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</Col>
-				<Col md='6'>
+				<Col md='6' className='perk-card'>
 				<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-1'/>
-				<p>Perk Namee<br/>
+				<p>Perk Name<br/>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</Col>
 				</Row>
@@ -88,7 +88,7 @@ export class Careers extends Component {
 
 				<Container>
 					<Row>
-						<Col md='6'>
+						<Col md='6' className='culture-point'>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis orci ac ipsum pellentesque imperdiet vitae quis massa. Ut convallis sollicitudin tempor. Sed sed eros at orci porta viverra nec quis enim. Ut tempor blandit pellentesque. Nulla sit amet ex efficitur, posuere ante vel, tristique massa. Pellentesque quis pretium nulla.</p>
 						</Col>
 						<Col md='6'>
@@ -96,7 +96,7 @@ export class Careers extends Component {
 						</Col>
 					</Row>
 					<Row>
-						<Col md='6'>
+						<Col md='6' className='culture-point'>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis orci ac ipsum pellentesque imperdiet vitae quis massa. Ut convallis sollicitudin tempor. Sed sed eros at orci porta viverra nec quis enim. Ut tempor blandit pellentesque. Nulla sit amet ex efficitur, posuere ante vel, tristique massa. Pellentesque quis pretium nulla.</p>
 						</Col>
 						<Col md='6'>

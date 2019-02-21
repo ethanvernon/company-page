@@ -443,7 +443,7 @@ li a:hover {
   font-weight:400;
   font-size:32px;
   padding-top:60px;
-  margin-bottom:75px;
+  margin-bottom:60px;
 }
 
 .title p {
@@ -457,7 +457,13 @@ li a:hover {
 .careers-page .call-to-action {
   background-color:#eee;
   padding: 30px;
+  padding-bottom:40px;
   font-size:15px;
+}
+
+.call-to-action p {
+  max-width:700px;
+  margin:25px auto;
 }
 
 .perks-img {
@@ -494,6 +500,13 @@ li a:hover {
   margin: 20px auto;
 }
 
+.culture .culture-point {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
 .culture p {
   font-size:17px;
   line-height:27px;
@@ -526,12 +539,23 @@ li a:hover {
 
 .locations h2 {
   font-size:36px;
+  padding-bottom:20px;
+}
+
+.locations .container {
+  padding-right:10px ;
+  padding-left:10px ;
 }
 
 .locations img {
-  margin: 10px;
-  border-radius:10px;
-  max-width:200px;
+  border-radius:20px;
+}
+
+.locations .row {
+  padding-bottom:20px;
+  width:100%;
+  margin:auto;
+  max-width:600px;
 }
 
 
