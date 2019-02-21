@@ -9,7 +9,11 @@ import {
   NavLink,
   Button,
   Collapse,
-  NavbarToggler } from 'reactstrap';
+  NavbarToggler,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem } from 'reactstrap';
 import logo from './logo.svg'; 
 
 export class Header extends Component {
@@ -38,8 +42,24 @@ export class Header extends Component {
 					<NavItem>
 						<Link to="/"> Home </Link>
 					</NavItem>
+
 					<NavItem>
-						<Link to="/solutions"> Solutions </Link>
+					<UncontrolledDropdown  inNavbar>
+						<DropdownToggle nav className='no-padding-nav'>
+							<Link to="/solutions"> Solutions </Link>
+						</DropdownToggle>
+						<DropdownMenu right>
+							<DropdownItem>
+								Bookings
+							</DropdownItem>
+							<DropdownItem>
+								Favorites
+							</DropdownItem>
+							<DropdownItem>
+								Logistics
+							</DropdownItem>
+						</DropdownMenu>
+					</UncontrolledDropdown>
 					</NavItem>
 					<NavItem>
 						<Link to="/about"> About </Link>
