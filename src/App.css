@@ -281,6 +281,7 @@ li a:hover {
   margin-top:30px;
 }
 
+/*--------------------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------footer---------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------*/
 .footer {
@@ -421,6 +422,116 @@ li a:hover {
 .hire-plug p {
   width:80%;
   max-width:700px;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------careers--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+.careers-page {
+  margin-top:56px;
+  text-align:center;
+}
+
+.careers-page img {
+  max-width:100%;
+}
+
+.title h1 {
+  letter-spacing:3px;
+  font-weight:400;
+  font-size:32px;
+  padding-top:60px;
+  margin-bottom:75px;
+}
+
+.title p {
+  font-weight:500;
+  width:90%;
+  max-width:700px;
+  margin: 0 auto 50px auto;
+  font-size:18px;
+}
+
+.careers-page .call-to-action {
+  background-color:#eee;
+  padding: 30px;
+  font-size:15px;
+}
+
+.perks-img {
+  max-width:100%;
+  height:auto;
+  vertical-align:middle;
+}
+
+.perks h2 {
+  padding-top:60px;
+  font-size: 36px;
+  letter-spacing:2px;
+  font-weight:100;
+}
+
+.perk-cards-container {
+  padding-top:15px;
+}
+
+.perk-card {
+  padding:15px;
+}
+
+.careers-page .culture {
+  background-color: #eee;
+  margin-top:30px;
+  padding-top:20px;
+  padding-bottom: 40px;
+}
+
+.culture h2 {
+  font-size:32px;
+  letter-spacing:2px;
+  margin: 20px auto;
+}
+
+.culture p {
+  font-size:17px;
+  line-height:27px;
+}
+
+.culture img {
+  padding:20px;
+  margin-bottom:15px;
+}
+
+.apply-link {
+  height:230px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.apply-link h2 {
+  font-size:26px;
+  width:90%;
+  margin-bottom:30px;
+}
+
+.locations {
+  background-color:#eee;
+  padding-top:30px;
+  padding-bottom:40px;
+}
+
+.locations h2 {
+  font-size:36px;
+}
+
+.locations img {
+  margin: 10px;
+  border-radius:10px;
+  max-width:200px;
 }
 
 
