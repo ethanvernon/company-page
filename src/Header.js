@@ -10,6 +10,7 @@ import {
   Button,
   Collapse,
   NavbarToggler } from 'reactstrap';
+import logo from './logo.svg'; 
 
 export class Header extends Component {
 	  constructor(props) {
@@ -30,7 +31,7 @@ export class Header extends Component {
 	render() {
 	return (
 		<Navbar color='light' light expand='md'>
-			<NavbarBrand href="/" className="mr-auto"><Link to="/">Your Logo</Link></NavbarBrand>
+			<NavbarBrand href="/" className="mr-auto"><Link to="/"><img src={logo}/></Link></NavbarBrand>
 			<NavbarToggler onClick={this.toggle} className='mr-2'/>
 			<Collapse isOpen={this.state.isOpen} navbar>
 				<Nav navbar className='ml-auto'>
