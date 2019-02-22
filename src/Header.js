@@ -50,13 +50,13 @@ export class Header extends Component {
 						</DropdownToggle>
 						<DropdownMenu right>
 							<DropdownItem>
-								Bookings
+								<Link to="/logistics"> Logistics </Link>
 							</DropdownItem>
 							<DropdownItem>
-								Favorites
+								<Link to="/favorites"> Favorites </Link>
 							</DropdownItem>
 							<DropdownItem>
-								Logistics
+								<Link to="/bookings"> Bookings </Link>
 							</DropdownItem>
 						</DropdownMenu>
 					</UncontrolledDropdown>

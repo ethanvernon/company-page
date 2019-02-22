@@ -7,7 +7,9 @@ import {
 	Switch
 } from 'react-router-dom';
 import {Home} from './Home';
-import Solutions from './Solutions';
+import {Bookings} from './Bookings';
+import {Favorites} from './Favorites';
+import {Logistics} from './Logistics';
 import {About} from './About';
 import {Careers} from './Careers';
 import Blog from './Blog';
@@ -23,7 +25,9 @@ class App extends Component {
 				<Header/>
 				<Switch>
 					<Route exact path='/' component={Home}></Route>
-					<Route exact path='/solutions' component={Solutions}></Route>
+					<Route exact path='/bookings' component={Bookings}></Route>
+					<Route exact path='/favorites' component={Favorites}></Route>
+					<Route exact path='/logistics' component={Logistics}></Route>
 					<Route exact path='/about' component={About}></Route>
 					<Route exact path='/careers' component={Careers}></Route>
 					<Route exact path='/blog' component={Blog}></Route>

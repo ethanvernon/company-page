@@ -88,7 +88,7 @@ li a:hover {
 /*--------------------------------------------------------------------------------------------------------------------------*/
 
 .main {
-  margin-top:86px;
+  margin-top:74.922px;
   background-image: url(./main.jpg);
   height:400px;
   overflow:hidden; 
@@ -97,6 +97,10 @@ li a:hover {
   background-repeat:no-repeat;
   background-size:cover;
   background-attachment:fixed;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .statement h1 {
@@ -105,9 +109,9 @@ li a:hover {
   font-size:calc(20px + 2vw);
   margin:auto;
   font-weight:400;
-  padding-top:40px;
   letter-spacing:2px;
   width:90%;
+  margin-top:-30px;
 }
 
 .main .btn-holder {
@@ -600,6 +604,132 @@ li a:hover {
   width:100%;
   margin:auto;
   max-width:600px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------bookings-------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.bookings {
+  margin-top:74.922px;
+  text-align: center;
+}
+
+.bookings .heading {
+  height:250px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+.bookings .heading h1 {  
+  letter-spacing:3px;
+  font-weight:400;
+  font-size:32px;
+  margin-bottom:40px;
+}
+
+.bookings .heading p {
+  width:90%;
+  max-width:700px;
+}
+
+.bookings .key-solution {
+  padding:40px 0px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.bookings .key-solution .container {
+  margin: 0px 20px;
+  padding:0px;
+}
+
+.bookings .key-solution .description-col {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+.bookings .key-solution h2 {
+  letter-spacing:3px;
+  font-weight:400;
+  font-size:32px;  
+  margin-bottom:20px;
+}
+
+.bookings .key-solution .img-col {  
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookings .key-solution img {
+  width:90%;
+  margin:auto;
+}
+
+.bookings .features-header {  
+  background-color:#eee;
+}
+
+.bookings .features-header h2 {  
+  padding-top:50px;
+  font-weight:100;
+  font-size:32px;
+  letter-spacing: 4px;
+  margin-bottom:20px;
+}
+
+.bookings .features {
+  background-color:#eee;
+  text-align:left;
+}
+
+.bookings .left-feature {
+  padding: 40px 0px;
+}
+
+.bookings .left-feature h2 {
+  letter-spacing:3px;
+  font-weight:400;
+  font-size:32px;  
+  margin-bottom:40px;  
+}
+
+.bookings .left-feature img {
+  width:100%;
+  max-width:420px;
+  padding-bottom:30px;
+}
+
+.bookings .book-col {
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.bookings .book-desc {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookings .left-feature h3 {
+  letter-spacing:3px;
+  font-weight:400;
+  font-size:28px;  
+  margin-bottom:20px;  
+}
+
+.bookings .left-feature p {
+  padding-bottom:30px;
 }
 
 

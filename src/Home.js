@@ -22,7 +22,7 @@ export class Home extends Component {
 
 			<div className='main' id='main'>
 				<div className='statement'>
-					<h1>Captivating choice of words uniquely organized to convince your customers of your awesomeness.</h1>
+					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec posuere sagittis augue rhoncus.</h1>
 					<div className='btn-holder'>
 						<Button color='primary'>IMPORTANT LINK</Button>
 					</div>
@@ -31,7 +31,7 @@ export class Home extends Component {
 			
 			<div className='description'>
 				<h2>SECTION TITLE</h2>
-				<p>A single sentence of some interesting text that more or less encapsulates or expands slightly upon your elevator pitch.</p>
+				<p>Nunc vulputate lobortis lectus, rutrum porttitor justo consequat at quisque mi odio, consectetur commodo.</p>
 			</div>
 
 			<div className='capstone-feature'>
