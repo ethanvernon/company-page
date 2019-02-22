@@ -17,7 +17,15 @@ export class Logistics extends Component {
 	render() {
 		return (
 		<div className='logistics'>	
-
+			<div className='frame-frame'>
+			<div className='frame-div'>
+				<iframe 
+					src="https://www.youtube.com/embed/YgmIibSnZs0" 
+					frameborder="0" 
+					allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+					allowfullscreen/>
+			</div>
+			</div>
 		</div>
 	    );
   }
