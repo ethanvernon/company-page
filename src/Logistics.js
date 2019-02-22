@@ -72,25 +72,25 @@ export class Logistics extends Component {
 			<div className='ending'>
 				<h2>CURABITUR VENANTS</h2>
 				<Container><Row>
-					<Col lg='4'>
+					<Col md='4' lg='4'>
 						<div className='quantifiable'>
 							<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-7'/>
 							<h2>39%</h2>
-							<h3>Increase in sales</h3>
+							<h3>Interdum et malesu</h3>
 						</div>
 					</Col>
-					<Col lg='4'>
+					<Col md='4' lg='4'>
 						<div className='quantifiable'>
 							<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-7'/>
 							<h2>99%</h2>
-							<h3>Customer Satisfaction</h3>
+							<h3>Ante ipsum primis</h3>
 						</div>
 					</Col>
-					<Col lg='4'>
+					<Col md='4' lg='4'>
 						<div className='quantifiable'>
 							<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-7'/>
-							<h2>385000</h2>
-							<h3>Bookings</h3>
+							<h2>385</h2>
+							<h3>Morbi quis magna</h3>
 						</div>
 					</Col>
 				</Row></Container>

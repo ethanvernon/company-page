@@ -40,7 +40,7 @@ export class Header extends Component {
 			<Collapse isOpen={this.state.isOpen} navbar>
 				<Nav navbar className='ml-auto'>
 					<NavItem>
-						<Link to="/"> Home </Link>
+						<Link to="/" className='padded-nav'> Home </Link>
 					</NavItem>
 
 					<NavItem className='custom-nav-padding'>
@@ -49,29 +49,35 @@ export class Header extends Component {
 							Solutions
 						</DropdownToggle>
 						<DropdownMenu right>
-							<DropdownItem>
-								<Link to="/bookings"> Bookings </Link>
-							</DropdownItem>
-							<DropdownItem>
-								<Link to="/logistics"> Logistics </Link>
-							</DropdownItem>
-							<DropdownItem>
-								<Link to="/favorites"> Favorites </Link>
-							</DropdownItem>
+							<Link to="/bookings">
+								<DropdownItem>
+								Bookings
+								</DropdownItem>
+							</Link>
+							<Link to="/logistics">
+								<DropdownItem>
+								Logistics
+								</DropdownItem>
+							</Link>
+							<Link to="/favorites">
+								<DropdownItem>
+								Favorites
+								</DropdownItem>
+							</Link>
 						</DropdownMenu>
 					</UncontrolledDropdown>
 					</NavItem>
 					<NavItem>
-						<Link to="/about"> About </Link>
+						<Link to="/about" className='padded-nav'> About </Link>
 					</NavItem>
 					<NavItem>
-						<Link to="/careers"> Careers </Link>
+						<Link to="/careers" className='padded-nav'> Careers </Link>
 					</NavItem>
 					<NavItem>
-						<Link to="/blog"> Blog </Link>
+						<Link to="/blog" className='padded-nav'> Blog </Link>
 					</NavItem>
 					<NavItem>
-						<Link to="/contact-us"> Request Demo </Link>
+						<Link to="/contact-us" className='padded-nav'> Request Demo </Link>
 					</NavItem>
 				</Nav>
 			</Collapse>

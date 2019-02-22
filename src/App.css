@@ -31,7 +31,6 @@ ul {
 li a {
   color:white !important;
   line-height:30px;
-  padding-left:20px;
 }
 
 a:link {
@@ -50,6 +49,10 @@ li a:hover {
 .no-padding-nav {
   padding:0px !important;
   padding-left:20px !important;
+}
+
+.padded-nav {
+  padding-left:20px;
 }
 
 /*--------------------------------------drop-down menu media query----------------------------------------------------------*/
@@ -316,7 +319,7 @@ li a:hover {
 
 .quantifiable h2 {
   font-size:60px;
-  margin:40px auto;
+  margin:20px auto;
 }
 
 .quantifiable h3 {
@@ -788,12 +791,25 @@ li a:hover {
   margin:auto;
 }
 
+.logistics .perks {
+  background-color:#eee;
+  margin-top:50px;
+}
 
+.logistics .perks h2 {
+  padding-top:40px;
+}
+
+.logistics .perks h3 {
+  font-size:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
 
 .frame-frame {
-  width:100%;
-  max-width:560px;
-  margin:auto;
+  width:95%;
+  max-width:700px;
+  margin:50px auto;
 }
 
 .frame-div {/*
