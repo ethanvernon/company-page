@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import office from './work.jpg';
-import { Button, Col } from 'reactstrap';
+import { Button, Col, Container, Row } from 'reactstrap';
 import './App.css';
-import headshot from './profile.jpg'
+import display from './display.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faCodepen } from '@fortawesome/free-brands-svg-icons';
@@ -17,15 +18,86 @@ export class Logistics extends Component {
 	render() {
 		return (
 		<div className='logistics'>	
+
+			<div className='heading'>
+				<h1>LOREM IPSUM</h1>
+			</div>
+
+			<div className='key-solution'>
+				<Container>
+					<Row>
+						<Col sm='12' md='6' className='description-col'>
+							<p>Quisque mi odio, consectetur commodo scelerisque eget, aliquet a augue. Aenean vestibulum nisi a imperdiet vulputate. Fusce euismod lacus vel urna dapibus, a laoreet tortor placerat. Sed gravida neque tellus, ac sagittis arcu aliquam ut. </p>
+						</Col>
+						<Col sm='12' md='6' className='img-col'>
+							<img src={display}/>
+						</Col>
+					</Row>
+				</Container>
+			</div>
+
+			<div className='perks'>
+				<h2>ALIQUETS</h2>
+					<Container className='perk-cards-container'>
+						<Row>
+							<Col md='4' className='perk-card'>
+								<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-1'/>
+								<h3>Perk Name</h3>
+								<p>Pellentesque eleifend arcu nisi, feugiat efficitur ligula pharetra non. Morbi nunc neque, lacinia quis nisl a, volutpat volutpat enim. Morbi est lectus, luctus sit amet metus ac, porttitor tristique dui. Phasellus rhoncus odio non erat rutrum efficitur porta nec ipsum. </p>
+							</Col>
+							<Col md='4' className='perk-card'>
+								<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-1'/>
+								<h3>Perk Name</h3>
+								<p>Pellentesque eleifend arcu nisi, feugiat efficitur ligula pharetra non. Morbi nunc neque, lacinia quis nisl a, volutpat volutpat enim. Morbi est lectus, luctus sit amet metus ac, porttitor tristique dui. Phasellus rhoncus odio non erat rutrum efficitur porta nec ipsum. </p>
+							</Col>
+							<Col md='4' className='perk-card'>
+								<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-1'/>
+								<h3>Perk Name</h3>
+								<p>Pellentesque eleifend arcu nisi, feugiat efficitur ligula pharetra non. Morbi nunc neque, lacinia quis nisl a, volutpat volutpat enim. Morbi est lectus, luctus sit amet metus ac, porttitor tristique dui. Phasellus rhoncus odio non erat rutrum efficitur porta nec ipsum. </p>
+							</Col>				
+						</Row>
+					</Container>
+			</div>
+
 			<div className='frame-frame'>
-			<div className='frame-div'>
-				<iframe 
-					src="https://www.youtube.com/embed/YgmIibSnZs0" 
-					frameborder="0" 
-					allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
-					allowfullscreen/>
+				<div className='frame-div'>
+					<iframe 
+						src="https://www.youtube.com/embed/YgmIibSnZs0" 
+						frameborder="0" 
+						allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+						allowfullscreen/>
+				</div>
 			</div>
+
+			<div className='ending'>
+				<h2>CURABITUR VENANTS</h2>
+				<Container><Row>
+					<Col lg='4'>
+						<div className='quantifiable'>
+							<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-7'/>
+							<h2>39%</h2>
+							<h3>Increase in sales</h3>
+						</div>
+					</Col>
+					<Col lg='4'>
+						<div className='quantifiable'>
+							<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-7'/>
+							<h2>99%</h2>
+							<h3>Customer Satisfaction</h3>
+						</div>
+					</Col>
+					<Col lg='4'>
+						<div className='quantifiable'>
+							<FontAwesomeIcon icon={faCoffee} size='2x' transform='grow-7'/>
+							<h2>385000</h2>
+							<h3>Bookings</h3>
+						</div>
+					</Col>
+				</Row></Container>
 			</div>
+
+			<Footer/>
+
 		</div>
 	    );
   }

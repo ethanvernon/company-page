@@ -738,7 +738,57 @@ li a:hover {
 
 .logistics {
   margin-top:74.922px;
+  text-align:center;
 }
+
+.logistics .heading {
+  height:150px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+.logistics .heading h1 {  
+  letter-spacing:3px;
+  font-weight:400;
+  font-size:32px;
+}
+
+.logistics .key-solution {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logistics .key-solution .container {
+  margin: 0px 20px;
+  padding:0px;
+}
+
+.logistics .key-solution .description-col {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  padding:20px;
+}
+
+.logistics .key-solution .img-col {  
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logistics .key-solution img {
+  width:90%;
+  margin:auto;
+}
+
+
 
 .frame-frame {
   width:100%;
