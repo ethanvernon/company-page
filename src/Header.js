@@ -74,9 +74,6 @@ export class Header extends Component {
 						<Link to="/careers" className='padded-nav'> Careers </Link>
 					</NavItem>
 					<NavItem>
-						<Link to="/blog" className='padded-nav'> Blog </Link>
-					</NavItem>
-					<NavItem>
 						<Link to="/contact-us" className='padded-nav'> Request Demo </Link>
 					</NavItem>
 				</Nav>

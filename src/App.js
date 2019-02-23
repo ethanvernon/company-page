@@ -12,8 +12,7 @@ import {Favorites} from './Favorites';
 import {Logistics} from './Logistics';
 import {About} from './About';
 import {Careers} from './Careers';
-import Blog from './Blog';
-import RequestDemo from './RequestDemo';
+import {RequestDemo} from './RequestDemo';
 import {Header} from './Header';
 import NotFound from './NotFound';
 
@@ -30,7 +29,6 @@ class App extends Component {
 					<Route exact path='/logistics' component={Logistics}></Route>
 					<Route exact path='/about' component={About}></Route>
 					<Route exact path='/careers' component={Careers}></Route>
-					<Route exact path='/blog' component={Blog}></Route>
 					<Route exact path='/contact-us' component={RequestDemo}></Route>
 					<Route component={NotFound}></Route>
 				</Switch>
