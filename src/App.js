@@ -3,7 +3,6 @@ import './App.css';
 import {
 	BrowserRouter as Router,
 	Route,
-	Link,
 	Switch
 } from 'react-router-dom';
 import {Home} from './Home';
@@ -19,7 +18,7 @@ import NotFound from './NotFound';
 class App extends Component {
   render() {
     return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<div>
 				<Header/>
 				<Switch>

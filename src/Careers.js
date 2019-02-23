@@ -1,21 +1,14 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import office from './work.jpg';
 import { Button, Col, Row, Container } from 'reactstrap';
 import './App.css';
-import headshot from './profile.jpg';
 import team from './team1.jpg';
 import team2 from './team2.jpg';
 import pano from './pano.jpg';
 import city from './city.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faCodepen } from '@fortawesome/free-brands-svg-icons';
-import {faAngleDoubleUp} from '@fortawesome/free-solid-svg-icons';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import {Footer} from './Footer';
-import { Link } from 'react-router-dom';
 
 
 export class Careers extends Component {

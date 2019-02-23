@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import main from './main.jpg';
 import { Button, Container, Row, Col } from 'reactstrap';
 import './App.css';
 import product from './product.jpg';
@@ -8,10 +7,6 @@ import icon from './icon.png';
 import book from './book.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faCodepen } from '@fortawesome/free-brands-svg-icons';
-import {faAngleDoubleUp} from '@fortawesome/free-solid-svg-icons';
 import {Footer} from './Footer';
 
 

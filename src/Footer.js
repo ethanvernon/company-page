@@ -4,7 +4,6 @@ import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faCodepen } from '@fortawesome/free-brands-svg-icons';
 import {faAngleDoubleUp} from '@fortawesome/free-solid-svg-icons';
 
 

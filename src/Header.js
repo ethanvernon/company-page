@@ -6,8 +6,6 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  Button,
   Collapse,
   NavbarToggler,
   UncontrolledDropdown,
@@ -17,19 +15,29 @@ import {
 import logo from './logo.svg'; 
 
 export class Header extends Component {
-	  constructor(props) {
-    super(props);
+	constructor(props) {
+		super(props);
 
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-      isOpen: false
-    };
-  }
-  toggle() {
-    this.setState({
-      isOpen: !this.state.isOpen
-    });
-  }
+		this.state = {
+		isOpen: false
+		};
+
+		this.toggle = this.toggle.bind(this);
+		this.closeNav = this.closeNav.bind(this);
+	}
+
+
+	toggle() {
+		this.setState({
+			isOpen: !this.state.isOpen
+		});
+	}
+
+	closeNav() {
+		if (this.state.isOpen == true) {
+			this.toggle();
+		}
+	}
 
 
 	render() {
@@ -40,7 +48,7 @@ export class Header extends Component {
 			<Collapse isOpen={this.state.isOpen} navbar>
 				<Nav navbar className='ml-auto'>
 					<NavItem>
-						<Link to="/" className='padded-nav'> Home </Link>
+						<Link to="/" className='padded-nav' onClick={this.closeNav} > Home </Link>
 					</NavItem>
 
 					<NavItem className='custom-nav-padding'>
@@ -49,17 +57,17 @@ export class Header extends Component {
 							Solutions
 						</DropdownToggle>
 						<DropdownMenu right>
-							<Link to="/bookings">
+							<Link to="/bookings"  onClick={this.closeNav} >
 								<DropdownItem>
 								Bookings
 								</DropdownItem>
 							</Link>
-							<Link to="/logistics">
+							<Link to="/logistics" onClick={this.closeNav} >
 								<DropdownItem>
 								Logistics
 								</DropdownItem>
 							</Link>
-							<Link to="/favorites">
+							<Link to="/favorites" onClick={this.closeNav} >
 								<DropdownItem>
 								Favorites
 								</DropdownItem>
@@ -68,13 +76,13 @@ export class Header extends Component {
 					</UncontrolledDropdown>
 					</NavItem>
 					<NavItem>
-						<Link to="/about" className='padded-nav'> About </Link>
+						<Link to="/about" className='padded-nav' onClick={this.closeNav} > About </Link>
 					</NavItem>
 					<NavItem>
-						<Link to="/careers" className='padded-nav'> Careers </Link>
+						<Link to="/careers" className='padded-nav' onClick={this.closeNav} > Careers </Link>
 					</NavItem>
 					<NavItem>
-						<Link to="/contact-us" className='padded-nav'> Request Demo </Link>
+						<Link to="/contact-us" className='padded-nav' onClick={this.closeNav} > Request Demo </Link>
 					</NavItem>
 				</Nav>
 			</Collapse>
