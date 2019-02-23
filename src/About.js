@@ -14,6 +14,11 @@ import { Link } from 'react-router-dom';
 
 
 export class About extends Component {
+
+	componentDidMount() {
+		window.scrollTo(0,0);
+	}
+
 	render() {
 		return (
 		<div className='page'>	

@@ -4,6 +4,7 @@ import office from './work.jpg';
 import { Button, Col, Container, Row } from 'reactstrap';
 import './App.css';
 import display from './display.png';
+import banner from './logistics.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
@@ -15,6 +16,11 @@ import { Link } from 'react-router-dom';
 
 
 export class Logistics extends Component {
+
+	componentDidMount() {
+		window.scrollTo(0,0);
+	}
+
 	render() {
 		return (
 		<div className='logistics'>	

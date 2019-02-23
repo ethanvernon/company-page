@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Col, Container, Row } from 'reactstrap';
 import './App.css';
 import product from './product-transparent.png';
+import banner from './bookings.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -16,6 +17,11 @@ import book from './book.jpg';
 
 
 export class Bookings extends Component {
+
+	componentDidMount() {
+		window.scrollTo(0,0);
+	}
+
 	render() {
 		return (
 		<div className='bookings'>	
