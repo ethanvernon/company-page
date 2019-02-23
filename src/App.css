@@ -115,6 +115,7 @@ li a:hover {
   letter-spacing:2px;
   width:90%;
   margin-top:-30px;
+  max-width:900px;
 }
 
 .main .btn-holder {
