@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/company-page/static/media/demo-city.9ced629f.jpg"
   },
   {
-    "revision": "bec6c306204e51895f4d",
+    "revision": "2f60ed5d463ea9a215c3",
     "url": "/company-page/static/css/main.9861f6ac.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/company-page/static/media/bookings.d3d01f00.jpg"
   },
   {
-    "revision": "bec6c306204e51895f4d",
-    "url": "/company-page/static/js/main.bec6c306.chunk.js"
+    "revision": "2f60ed5d463ea9a215c3",
+    "url": "/company-page/static/js/main.2f60ed5d.chunk.js"
   },
   {
     "revision": "2eb6a2cf5f0cf18d2c7414375fa4c390",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/company-page/static/css/2.a32b96ab.chunk.css"
   },
   {
-    "revision": "e3e8390559572d72f087777bf727efe2",
+    "revision": "92a21460aebecc2802a5ae6b14ef50eb",
     "url": "/company-page/index.html"
   }
 ];
