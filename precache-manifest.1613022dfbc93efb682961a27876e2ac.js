@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/company-page/static/media/demo-city.53007a82.jpg"
   },
   {
-    "revision": "da761ef580650ccc092f",
+    "revision": "ee7ba5e009cb32b463a7",
     "url": "/company-page/static/css/main.1219ffd7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/company-page/static/media/logo.588a78b9.svg"
   },
   {
-    "revision": "62ae7e1c22eb82277fbe",
-    "url": "/company-page/static/js/2.62ae7e1c.chunk.js"
+    "revision": "01997f211d577ea34d20",
+    "url": "/company-page/static/js/2.01997f21.chunk.js"
   },
   {
     "revision": "6a973a9ac40902af42fd7a7bfe43c5ee",
@@ -40,20 +40,20 @@ self.__precacheManifest = [
     "url": "/company-page/static/media/main.bc88d570.jpg"
   },
   {
-    "revision": "da761ef580650ccc092f",
-    "url": "/company-page/static/js/main.da761ef5.chunk.js"
+    "revision": "ee7ba5e009cb32b463a7",
+    "url": "/company-page/static/js/main.ee7ba5e0.chunk.js"
   },
   {
     "revision": "6e075dc3e400025ddd36b3162f758dbc",
     "url": "/company-page/static/media/city.6e075dc3.jpg"
   },
   {
-    "revision": "ec8d3223db80efd21b739995484c9ae8",
-    "url": "/company-page/static/media/product-transparent.ec8d3223.png"
-  },
-  {
     "revision": "3223dd5e89c4147d40001ebc14c23683",
     "url": "/company-page/static/media/book.3223dd5e.jpg"
+  },
+  {
+    "revision": "ec8d3223db80efd21b739995484c9ae8",
+    "url": "/company-page/static/media/product-transparent.ec8d3223.png"
   },
   {
     "revision": "9f833553b44437fa07750161db57a0ca",
@@ -76,11 +76,11 @@ self.__precacheManifest = [
     "url": "/company-page/static/media/pano.5cc735d7.jpg"
   },
   {
-    "revision": "62ae7e1c22eb82277fbe",
+    "revision": "01997f211d577ea34d20",
     "url": "/company-page/static/css/2.a32b96ab.chunk.css"
   },
   {
-    "revision": "aa3b8beef62218be428b200e1f846197",
+    "revision": "25a385fe25869a7e24ccb4dcf21c5108",
     "url": "/company-page/index.html"
   }
 ];
