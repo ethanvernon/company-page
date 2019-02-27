@@ -4,7 +4,6 @@ import { Button, Col, Row, Container } from 'reactstrap';
 import './App.css';
 import team from './team1.jpg';
 import team2 from './team2.jpg';
-import pano from './pano.jpg';
 import city from './city.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
@@ -32,7 +31,7 @@ export class Careers extends Component {
 				<Button color='primary'>APPLY NOW</Button>
 			</div>
 
-			<img className='perks-img' src={pano}/>
+			<div className='perks-img'/>
 
 			<div className='perks'>
 				<h2>Perks and Benefits</h2>

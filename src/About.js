@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Col } from 'reactstrap';
 import './App.css';
-import headshot from './profile.jpg';
+import headshot from './profile.svg';
 import {Footer} from './Footer';
 import { Link } from 'react-router-dom';
 
@@ -35,99 +35,100 @@ export class About extends Component {
 
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Lorem ipsum</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Doler Sit</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Amet Consecetur</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Adipiscing Elit</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Dibec Et</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Purus Neque</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Sodales Laoreet</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Vestibu Pellentes</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Edet Malesua</p>
+				</Col>
+				
+				<Col>
+					<img src={headshot}/>
+					<p className='headshot-name'>Doler Sit</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Amet Consecetur</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Adipiscing Elit</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Dibec Et</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Purus Neque</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Sodales Laoreet</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Vestibu Pellentes</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Edet Malesua</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Doler Sit</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
-				</Col>	
-				<Col>
-					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Amet Consecetur</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Adipiscing Elit</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Dibec Et</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Purus Neque</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Sodales Laoreet</p>
 				</Col>
 				<Col>
 					<img src={headshot}/>
-					<p>FirstName LastName</p>
+					<p className='headshot-name'>Vestibu Pellentes</p>
 				</Col>
 			</div>
 

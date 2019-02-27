@@ -454,8 +454,10 @@ li a:hover {
   max-width:100px;
 }
 
-.team p {
+.team .headshot-name p {
   font-weight:500;
+  text-align:center;
+  width:160px;
 }
 
 .team .col {
@@ -525,16 +527,35 @@ li a:hover {
 }
 
 .perks-img {
-  max-width:100%;
-  height:auto;
-  vertical-align:middle;
+  background-image: url(./pano.jpg);
+  overflow:hidden; 
+  width:100%;
+  height:30vw;
+  max-height:400px;
+  background-position: center !important;
+  background-repeat:no-repeat;
+  background-size:cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .perks h2 {
-  padding-top:60px;
+  padding-top:40px;
   font-size: 36px;
   letter-spacing:2px;
   font-weight:100;
+}
+
+@media only screen and (max-width: 700px) {
+  .perks-img {    
+    height:36vw;    
+  }
+
+  .perks h2 {
+    padding-top:20px;
+  }
 }
 
 .perk-cards-container {
